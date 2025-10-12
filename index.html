@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- custom style -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <!-- Font Awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success shadow-sm ">
+        <div class="container-fluid ">
+            <a class="navbar-brand ms-5 d-flex align-items-center" href="#">
+                <img src="./assets/portfolioLogo.png" alt="Bootstrap" width="60" height="60" class="me-2 ">
+                <span class="text-light"> Portfolio</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbar">
+                <ul class="navbar-nav me-5 mb-2 mb-lg-0 ">
+                    <li class="nav-item "><a class="nav-link text-light active" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link text-light active" href="#skill">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link text-light active" href="#project">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-light active" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- hero section -->
+    <main>
+
+        <!-- main section -->
+        <section class="d-flex justify-content-center align-items-center h-100" style="background-color: #012e12c0; ">
+            <div class="container">
+                <div class="row align-items-center text-white">
+                    <div class="col-lg-6 col-sm-12 text-center text-lg-start mt-5 py-5">
+                        <h1 class="display-4 fw-bold">Hello, I'm <span class="text-success">Ayana M</span></h1>
+                        <p class=" mb-4">A Passionate Fullstack Developer Creating Modern Web Experiences</p>
+                        <a href="#project" class="btn btn-success shadow">View My Work</a>
+                        <a href="./images/resume.jpg" download class="btn btn-success shadow">
+                            <i class="fa-solid fa-download me-2"></i> Download Resume
+                        </a>
+
+                        <div class="gap-5 mt-3" style="margin-left: 40px;">
+                            <a href="https://github.com/Ayana863"> <i style="color: white;"
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ayana-rameshan-m/" target="_blank"> <i
+                                    style="color: white;" class="fa-brands fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12 text-center">
+                        <img src="./images/portfolioo1.png" alt="Ayana's Portfolio" width="70%">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- About Section -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">About Me</h2>
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 py-5 text-center">
+                        <img class="img-fluid rounded-circle shadow w-75" src="./images/portfolioo.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+
+                        <h5 class="font"> Hello! I'm <strong>Ayana</strong>a Fullstack Developer skilled in <b> React,
+                                Node.js,
+                                Express, and MongoDB</b>. I love building responsive web applications that combine
+                            beautiful frontend designs with robust backend functionality.
+                        </h5>
+
+                        <!-- education -->
+                        <h4 class="fw-bold mt-4">Education</h4>
+                        <ul>
+                            <li>🎓 Diploma in Computer Engineering</li>
+                            <li>💻 Currently studying Fullstack Development via Entri Elevate Internship</li>
+                        </ul>
+
+                        <!--experience -->
+
+                        <h4 class="fw-bold mt-4">Experience</h4>
+                        <ul>
+                            <li>💻 Hands-on experience building projects with React.js, Node.js, Express, and MongoDB
+                            </li>
+                            <li>🚀 Created responsive and interactive web applications combining frontend and backend
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- skills section -->
+        <section id="skill" class="my-5">
+            <div class="container">
+                <h2 class="text-center mb-5">My Skills</h2>
+                <div class="row g-4">
+
+                    <!-- Frontend Skills -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card p-4 h-100 text-center">
+                            <h4 class="mb-4">Frontend</h4>
+                            <div class="d-flex justify-content-around flex-wrap">
+                                <div class="skill-por m-4">
+                                    <img class="imgg" src="./images/Html.png" alt="">
+                                    <p>HTML</p>
+                                </div>
+                                <div class="skill-por m-4">
+                                    <img class="imgg" src="./images/css.png" alt="">
+                                    <p>CSS</p>
+                                </div>
+                                <div class="skill-por m-4">
+                                    <img class="imgg" src="./images/bootstrap.png" alt="">
+                                    <p>Bootstrap</p>
+                                </div>
+                                <div class="skill-por m-4">
+                                    <img class="imgg" src="./images/react.png" alt="">
+                                    <p>React.js</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card p-4 h-100 text-center">
+                            <h4 class="mb-4">Backend</h4>
+                            <div class="d-flex justify-content-around flex-wrap">
+                                <div class="skill-por m-4">
+                                    <img class="imgg" src="./images/mongo.png" alt="mongodb">
+                                    <p>MongoDB</p>
+                                </div>
+                                <div class="skill-por m-4">
+                                    <img class="imgg" src="./images/node.png" alt="node">
+                                    <p>Node.js</p>
+                                </div>
+                                <div class="skill-por m-4">
+                                    <img class="imgg" src="./images/express.png" alt="express">
+                                    <p>Express.js</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Tools Skills -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card p-4 h-100 text-center">
+                            <h4 class="mb-4">Tools</h4>
+                            <div class="d-flex justify-content-around flex-wrap">
+                                <div class="skill-por m-4">
+                                    <img class="imgg" src="./images/vscode.jpeg" alt="vscode">
+                                    <p>VSCode</p>
+                                </div>
+                                <div class="skill-por m-4">
+                                    <img class="imgg" src="./images/github.png" alt="github">
+                                    <p>GitHub</p>
+                                </div>
+                                <div class="skill-por m-4">
+                                    <img class="imgg" src="./images/postmann.png" alt="postman">
+                                    <p>PostMan</p>
+
+                                </div>
+                                <div class=" skill-por m-4">
+                                    <img class="imgg" src="./images/figma.png" alt="figma">
+                                    <p>Figma</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+
+
+        <!-- projects section -->
+        <section id="project" class="py-5 ">
+            <div class="container">
+                <h2 class="text-center mb-5 fw-bold">My Projects</h2>
+
+                <div class="row g-5">
+
+                    <!-- Project-1 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100 shadow-sm">
+                            <div class="img-container">
+                                <img src="./images/todo.png" class="card-img-top" alt="To-Do App">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">To-Do App</h5>
+                                <p class="card-text">
+                                    A simple and responsive To-Do List web app built using HTML, CSS, Bootstrap, and
+                                    JavaScript.
+                                    It allows users to add and delete tasks dynamically with an intuitive interface.
+                                </p>
+                                <div class="d-flex justify-content-between">
+                                    <a href="https://github.com/Ayana863/todoApp" target="_blank"
+                                        class="btn btn-dark btn-sm">
+                                        <i class="fa-brands fa-github"></i> Code
+                                    </a>
+                                    <a href="https://leafy-brioche-f27d0c.netlify.app/" target="_blank"
+                                        class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-up-right-from-square"></i> Live
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project-2 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100 shadow-sm">
+                            <div class="img-container">
+                                <img src="./images/digitalclock.png" class="card-img-top" alt="Digital Clock">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Digital Clock</h5>
+                                <p class="card-text">
+                                    A real-time digital clock built with HTML, Bootstrap, and JavaScript. It displays
+                                    the current time
+                                    dynamically with smooth transitions and a modern glass-effect UI.
+                                </p>
+                                <div class="d-flex justify-content-between">
+                                    <a href="https://github.com/Ayana863/Digital-Clock" target="_blank"
+                                        class="btn btn-dark btn-sm">
+                                        <i class="fa-brands fa-github"></i> Code
+                                    </a>
+                                    <a href="https://pwsandplay-demo.netlify.app" target="_blank"
+                                        class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-up-right-from-square"></i> Live
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project-3 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card project-card h-100 shadow-sm">
+                            <div class="img-container">
+                                <img src="./images/calculator.png" class="card-img-top" alt="Calculator">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Calculator</h5>
+                                <p class="card-text">
+                                    A simple and interactive calculator built using HTML, CSS, and JavaScript.
+                                    It performs basic arithmetic operations with a clean, user-friendly interface and
+                                    smooth button interactions.
+                                </p>
+                                <div class="d-flex justify-content-between">
+                                    <a href="https://github.com/Ayana863/calculator" target="_blank"
+                                        class="btn btn-dark btn-sm">
+                                        <i class="fa-brands fa-github"></i> Code
+                                    </a>
+                                    <a href="https://calculator-henna-theta.vercel.app/" target="_blank"
+                                        class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-up-right-from-square"></i> Live
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- contact section-->
+        <section id="contact" class="py-5 bg-dark text-white">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact Me</h2>
+                <div class="row d-flex justify-content-center">
+
+                    <div class="col-lg-6 col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name"
+                                    required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                    required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Write your message"
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                        <div class="d-flex align-items-center gap-4 mb-4">
+
+                            <p class="g-4"><i class="fa-solid fa-envelope"></i> ayanarameshan@gmail.com</p>
+                            <p class="g-4"><i class="fa-solid fa-phone"></i> +9567219253</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+
+
+
+    <!-- Footer -->
+    <footer id="contact" class="text-white py-4 bg-success">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">Ayana M</h5>
+                    <p>Fullstack Developer passionate about creating modern, responsive web apps.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="#skill" class="text-white text-decoration-none">Skills</a></li>
+                        <li><a href="#project" class="text-white text-decoration-none">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">Follow Me</h5>
+                    <a href="https://github.com/Ayana863" target="_blank" class="text-white fs-4 me-3"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ayana-rameshan-m/" target="_blank" class="text-white fs-4"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <hr class="border-light">
+            <p class="text-center mb-0">&copy; 2025 Ayana M | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <!-- bootstrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
